@@ -55,10 +55,9 @@
     align-items: center;
 }
 .header-left {
-    display: flex;
+    line-height: 40px;
     height: 72px;
     width: 233px;
-    flex-direction: column;
 }
 #Welcome {
     font-size: 24px;
@@ -153,9 +152,7 @@
     font-weight: 400;
 }
 .name-email {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+    line-height: 30px;
     height: 60px;
 }
 #name {
