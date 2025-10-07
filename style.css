@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-gray-light: #7F7F7F;
+    --color-input: #959595;
+    --color-blue: #4182F9;
+    --color-search: #ADA7A7;
+}
+.container {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+}
+.sidebar {
+    height: 100%;
+    width: 78px;
+    background-color: #fff;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+.icon-wrapper {
+    margin-top: 159px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.icon-container {
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active {
+    background: linear-gradient(269.84deg, #d7e5ff -39%, #ecf2ff 90%);
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 32px 40px;
+    flex-direction: column;
+    gap: 32px   ;
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    height: 72px;
+    width: 233px;
+    flex-direction: column;
+    gap: 12px;
+}
+#Welcome {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3E435D;
+}
+#Date {
+    font-size: 16px;
+    font-weight: 100;
+    color: #ADA7A7;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 52px;
+    gap: 20px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-search);
+    width: 354px;
+    height: 52px;
+    text-indent: 60px;
+    border-radius: 8px;
+}
+.search-bar img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 20px;
+}
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+}
+
+.profile {
+    background-color: white;
+}
+.banner {
+    height: 100px;
+}
+.banner img {
+    width: 100%;
+    height: 100px;
+}
+.information {
+    padding: 32px 32px 72px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.information-header {
+    display: flex;
+    justify-content: space-between;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+}
+#edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-edit {
+    font-family: "Poppins", sans-serif;
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: var(--color-blue);
+    color: white;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.name-email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 60px;
+}
+#name {
+    font-size: 20px;
+    font-weight: 600;
+}
+#email {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.form-information {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+}
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.form-input .label {
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-input .drop-down {
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-search);
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+}
+.form-input img {
+    width: 24px;
+}
+
+.email-information {
+    width: 266px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.email-information img {
+    width: 48px;
+}
+.email-title {
+    font-size: 18px;
+    font-weight: 600px;
+}
+.email-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 54px;
+    width: 100%;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+#address {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+#last-changed {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.add-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 209px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 0;
+    background-color: hsla(219, 94%, 62%, 0.1);
+    color: #4182f9;;
+}
