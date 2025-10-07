@@ -11,11 +11,10 @@
 }
 .container {
     display: flex;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     background-color: #f9f9f9;
 }
 .sidebar {
-    height: 100%;
     width: 78px;
     background-color: #fff;
 }
@@ -28,6 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 13px;
+    width: 100%;
 }
 .icon-container {
     height: 58px;
@@ -59,7 +59,6 @@
     height: 72px;
     width: 233px;
     flex-direction: column;
-    gap: 12px;
 }
 #Welcome {
     font-size: 24px;
@@ -83,7 +82,7 @@
     align-items: center;
 }
 .search-bar input {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     border: 0;
     font-weight: 400;
     font-size: 16px;
@@ -142,7 +141,7 @@
     justify-content: center;
 }
 .user-edit {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
     width: 93px;
     height: 44px;
     border-radius: 8px;
@@ -250,6 +249,7 @@
     opacity: 0.5;
 }
 .add-email {
+    font-family: 'Poppins';
     display: flex;
     justify-content: center;
     align-items: center;
